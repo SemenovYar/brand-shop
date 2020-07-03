@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f9107fa59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header center">
+        <div class="header__left">
+            <a href="index.html" class="logo"> <img class="logo__img" src="img/logo.png" alt="logo">BRAN <span class="d">D</span></a>
+            <form class="header__form" action="">
+                <div class="header__browse">Browse &#9660;</div>
+                <input type="text" placeholder="Search for Item...">
+                <button class="header__button"><img src="img/search.png" alt="search"></button>
+            </form>
+        </div>
+        <div class="header__right">
+            <a href="shopping-cart.html"><img class="header__cart" src="img/cart.png" alt="cart"></a> <a href="checkout.html" class="button-p">My account &nbsp; &nbsp; &#9660;</a> </div>
+    </header>
+    <nav class="nav center">
+        <ul class="menu">
+            <li class="menu__list"><a href="index.html" class="menu__link">Home</a></li>
+            <li class="menu__list"><a href="product.html" class="menu__link">Man</a></li>
+            <li class="menu__list"><a href="single-page.html" class="menu__link">Women</a></li>
+            <li class="menu__list"><a href="product.html" class="menu__link">Kids</a></li>
+            <li class="menu__list"><a href="product.html" class="menu__link">Accoseriese</a></li>
+            <li class="menu__list"><a href="product.html" class="menu__link">Featured</a></li>
+            <li class="menu__list"><a href="product.html" class="menu__link">Hot Deals</a></li>
+        </ul>
+    </nav>
+    <div class="arrivals">
+        <div class="arrivals-header">New Arrivals</div>
+        <nav class="breadcrumbs"> <a href="" class="breadcrumbs-link">Home/</a> <a href="" class="breadcrumbs-link">Men /</a> <a href="" class="breadcrumbs-link breadcrumbs-colored">New Arrivals</a> </nav>
+    </div>
+    <div class="main-wrapper center">
+        <div class="main-left">
+                 <details open>
+                     <summary class="main-left__summary-heading">Category</summary>
+                     <ul class="main-left__ul">    
+                         <a href=""><li class="main-left__li">Accessories</li></a>
+                         <a href=""><li class="main-left__li">Bags</li></a>
+                         <a href=""><li class="main-left__li">Denim</li></a>
+                         <a href=""><li class="main-left__li">Hoodies & Sweatshirts</li></a>
+                         <a href=""><li class="main-left__li">Jackets & Coats</li></a>
+                         <a href=""><li class="main-left__li">Pants</li></a>
+                         <a href=""><li class="main-left__li">Polos</li></a>
+                         <a href=""><li class="main-left__li">Shirts</li></a>
+                         <a href=""><li class="main-left__li">Shoes</li></a>
+                         <a href=""><li class="main-left__li">Shorts</li></a>
+                         <a href=""><li class="main-left__li">Sweaters & Knits</li></a>
+                         <a href=""><li class="main-left__li">T-Shirts</li></a>
+                         <a href=""><li class="main-left__li">Tanks</li></a>
+                         </ul>
+                 </details>
+                 <details>
+                     <summary class="main-left__summary-heading">Brand</summary>
+                      <ul class="main-left__ul">
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                          <a href=""><li class="main-left__li">some text</li></a>
+                         </ul>
+                 </details>
+                 <details>
+                     <summary class="main-left__summary-heading">Designer</summary>
+                     <ul class="main-left__ul">
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         <a href=""><li class="main-left__li">some text</li></a>
+                         </ul>
+                 </details>     
+        </div>
+        <div class="main-right center">
+            <div class="filter center">
+                <div class="filter__top">
+                    <form class="filter-form" oninput="result.value=('$' + range.value)" action="#">
+                        <fieldset>
+                            <legend class="filter-legend">Trending now</legend>
+                            <div class="trending-list">
+                                <div class="margin-trending-list"> <a href="" class="trending-link">Bohemian <span class="breck">|</span></a> <a href="" class="trending-link">Floral <span class="breck">|</span></a> <a href="" class="trending-link">Lace</a> </div> <a href="" class="trending-link">Floral <span class="breck">|</span></a> <a href="" class="trending-link">Lace <span class="breck">|</span></a> <a href="" class="trending-link">Bohemian</a> </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="filter-legend">Size</legend>
+                            <div class="wrapper-checkbox">
+                                <div class="margin-checkbox">
+                                    <input type="checkbox" name="" id="xxs">
+                                    <label class="label-checkbox" for="xxs">xxs</label>
+                                </div>
+                                <div class="margin-checkbox">
+                                    <input type="checkbox" name="" id="xs">
+                                    <label class="label-checkbox" for="xs">xs</label>
+                                </div>
+                                <div class="margin-checkbox">
+                                    <input type="checkbox" name="" id="s">
+                                    <label class="label-checkbox" for="s">s</label>
+                                </div>
+                                <div class="margin-checkbox">
+                                    <input type="checkbox" name="" id="m">
+                                    <label class="label-checkbox" for="m">m</label>
+                                </div>
+                                <div class="margin-checkbox">
+                                    <input type="checkbox" name="" id="l">
+                                    <label class="label-checkbox" for="l">l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                </div>
+                                <div class="margin-checkbox">
+                                    <input type="checkbox" name="" id="xl">
+                                    <label class="label-checkbox" for="xl">xl </label>
+                                </div>
+                                <div class="margin-checkbox">
+                                    <input type="checkbox" name="" id="xxl">
+                                    <label class="label-checkbox" for="xxl">xxl</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="filter-legend">Price</legend>
+                            <input id="range" type="range" value="10" step="0.1" />
+                            <br>
+                            <output name="result" for="range">0</output>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="filter__bottom">
+                    <label for="sort">Sort By</label>
+                    <select class="sort" name="" id="sort">
+                        <option value="">Name</option>
+                        <option value="">Price</option>
+                        <option value="">Size</option>
+                    </select>
+                    <label for="show">Show</label>
+                    <select name="" id="show">
+                        <option value="">4</option>
+                        <option value="">8</option>
+                        <option value="">10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="products__for-product center">
+               <div class="products__grid">
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1193.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1201.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1209.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1240.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1248.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1256.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1264.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+            <div class="product">
+                <a href="#"><img class="product__img" src="img/1272.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+                    <div class="product">
+                <a href="#"><img class="product__img" src="img/1877.png" alt="product"></a>
+                <div class="product__content"> <a href="#" class="product__name">Mango  People  T-shirt</a>
+                    <div class="product__price">$52.00</div> <img class="product__star" src="img/stars.png" alt="star"> </div> <a href="#" class="product__add">Add to Cart</a> </div>
+        </div>
+                <div class="products__bottom-pagination">
+                    <div class="bottom-pagination">
+                        <a href="" class="bottom-pagination-link">
+                            <</a> <a href="" class="bottom-pagination-link-colored">1</a> <a href="" class="bottom-pagination-link">2</a> <a href="" class="bottom-pagination-link">3</a> <a href="" class="bottom-pagination-link">4</a> <a href="" class="bottom-pagination-link">5</a> <a href="" class="bottom-pagination-link">6</a> <a href="" class="bottom-pagination-link">. . .</a> <a href="" class="bottom-pagination-link">20</a> <a href="" class="bottom-pagination-link-colored">></a> </div> <a href="" class="button-pagination">View All</a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer__bottom">
+        <div class="offer__bottom-content">
+            <div class="offer__bottom-block"> <img src="img/1322.png" alt="delivery">
+                <div class="">
+                    <h3 class="offer__bottom-h3">Free Delivery</h3>
+                    <p class="offer__bottom-p">Worldwide delivery on all. Authorit
+                        <br> tively morph next-generation innov
+                        <br> tion with extensive models.</p>
+                </div>
+            </div>
+            <div class="offer__bottom-block"> <img src="img/1340.png" alt="sales">
+                <div class="">
+                    <h3 class="offer__bottom-h3">Sales & discounts</h3>
+                    <p class="offer__bottom-p">Worldwide delivery on all. Authorit
+                        <br> tively morph next-generation innov
+                        <br> tion with extensive models.</p>
+                </div>
+            </div>
+            <div class="offer__bottom-block"> <img src="img/1341.png" alt="crown">
+                <div class="">
+                    <h3 class="offer__bottom-h3">Quality assurance</h3>
+                    <p class="offer__bottom-p">Worldwide delivery on all. Authorit
+                        <br> tively morph next-generation innov
+                        <br> tion with extensive models.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="top__footer-wm center">
+            <div class="top__footer-left"> <img class="top__footer-avatar" src="img/avatar.png" alt="avatar">
+                <div class="top__footer-left-content">
+                    <p class="top__footer-comment">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        <br> a pulvinar purus condimentum a. Aliquam condimentum
+                        <br> mattis neque sed pretium”</p>
+                    <h3 class="top__footer-name">Bin Burhan</h3>
+                    <p class="top__footer-city">Dhaka, Bd</p>
+                    <div class="pagination">
+                        <a href="" class="pagination-block"></a>
+                        <a href="" class="pagination-block pagination__colored-bcg"></a>
+                        <a href="" class="pagination-block"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="top__footer-right">
+                <div class="subscribe">
+                    <h2 class="subscribe-h2">Subscribe</h2>
+                    <p class="subscribe-p">FOR OUR NEWLETTER AND PROMOTION </p>
+                    <input type="email" class="subscribe-input" placeholder="Enter Your Email">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="middle__footer center">
+            <div class="description">
+                <a href="index.html" class="logo"> <img class="logo__img" src="img/logo.png" alt="logo">BRAN <span class="d">D</span></a>
+                <br>
+                <p class="middle__footer-description-content">Objectively transition extensive data rather than cross functional
+                    <br> solutions. Monotonectally syndicate multidisciplinary materials
+                    <br> before go forward benefits. Intrinsicly syndicate an expanded array
+                    <br> of processes and cross-unit partnerships.
+                    <br>
+                    <br> Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    <br> Distinctively seize superior initiatives for wireless technologies.
+                    <br> Dynamically optimize. </p>
+            </div>
+            <div class="middle__footer-columns">
+                <div class="middle__footer-table__list">
+                    <div class="middle__footer-columns-header">COMPANY</div> <a href="" class="middle__footer-table-link">Home</a> <a href="" class="middle__footer-table-link">Shop</a> <a href="" class="middle__footer-table-link">About</a> <a href="" class="middle__footer-table-link">How It Works</a> <a href="" class="middle__footer-table-link">Contact</a> </div>
+                <div class="middle__footer-table__list">
+                    <div class="middle__footer-columns-header">INFORMATION</div> <a href="" class="middle__footer-table-link">Tearms & Condition</a> <a href="" class="middle__footer-table-link">Privacy Policy</a> <a href="" class="middle__footer-table-link">How to Buy</a> <a href="" class="middle__footer-table-link">How to Sell</a> <a href="" class="middle__footer-table-link">Promotion</a> </div>
+                <div class="middle__footer-table__list">
+                    <div class="middle__footer-columns-header">SHOP CATEGORY</div> <a href="" class="middle__footer-table-link">Men</a> <a href="" class="middle__footer-table-link">Women</a> <a href="" class="middle__footer-table-link">Child</a> <a href="" class="middle__footer-table-link">Apparel</a> <a href="" class="middle__footer-table-link">Brows All</a> </div>
+            </div>
+        </div>
+        <div class="bottom__footer center">
+            <div class="copyright">&copy; 2020 Brand All Rights Reserved.</div>
+            <div class="social-links"> <a href="" class="social-link"><i class="fab fa-facebook-f"></i></a> <a href="" class="social-link"><i class="fab fa-twitter"></i></a> <a href="" class="social-link"><i class="fab fa-linkedin-in"></i></a> <a href="" class="social-link"><i class="fab fa-pinterest-p"></i></a> <a href="" class="social-link"><i class="fab fa-google-plus-g"></i></a> </div>
+        </div>
+    </footer>
+</body>
+
+</html>
