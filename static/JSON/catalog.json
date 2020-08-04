@@ -1,0 +1,58 @@
+[
+    {
+        "productName": "Майка Marina club",
+        "productPrice": 24,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/1.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_0"
+    },
+    {
+        "productName": "Кораловая Блузка",
+        "productPrice": 23,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/2.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_1"
+    },
+    {
+        "productName": "Куртка",
+        "productPrice": 12,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/3.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_2"
+    },
+    {
+        "productName": "Платье с цветами",
+        "productPrice": 44,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/4.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_3"
+    },
+    {
+        "productName": "Полосатая Блузка",
+        "productPrice": 34,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/5.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_4"
+    },
+    {
+        "productName": "Серый пиджак",
+        "productPrice": 54,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/6.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_5"
+    },
+    {
+        "productName": "Пляжные штаны",
+        "productPrice": 39,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/7.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_6"
+    },
+    {
+        "productName": "Тёмно-синее Худи",
+        "productPrice": 29,
+        "productImg": "https://raw.githubusercontent.com/SemenovYar/brand-shop/master/img/8.png",
+        "productStars": "<i class=\"fas fa-star\"></i><i class=\"fas fa-star\"></i>",
+        "productId": "prod_7"
+    }
+]
